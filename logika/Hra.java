@@ -32,9 +32,10 @@ public class Hra implements IHra {
      *  Vrátí úvodní zprávu pro hráče.
      */
     public String vratUvitani() {
-        return "Vítejte!\n" +
-               "Toto je příběh o Červené Karkulce, babičce a vlkovi.\n" +
-               "Napište 'nápověda', pokud si nevíte rady, jak hrát dál.\n" +
+        return "Je začátek zkouškového roku 2025.\n" +
+               "Jsi nenápadný student, který omilem zůstal ve škole i po spuštění varovného signálu.\n" +
+               "Cílem hry je úspěšně naleznout bombu a tu následně zneškodnit. \n" +
+                "To však nebude jednoduché, protože budeš muset nalézt kleště. \n" +
                "\n" +
                herniPlan.getAktualniProstor().dlouhyPopis();
     }
@@ -43,7 +44,7 @@ public class Hra implements IHra {
      *  Vrátí závěrečnou zprávu pro hráče.
      */
     public String vratEpilog() {
-        return "Dík, že jste si zahráli.  Ahoj.";
+        return "KONEC HRY";
     }
     
     /** 

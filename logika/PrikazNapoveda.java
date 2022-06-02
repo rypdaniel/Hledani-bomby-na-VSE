@@ -33,8 +33,7 @@ class PrikazNapoveda implements IPrikaz {
      */
     @Override
     public String provedPrikaz(String... parametry) {
-        return "Tvým úkolem je dovést Červenou Karkulku z domečku\n"
-        + "až k babičce, která bydlí v chaloupce za lesem.\n"
+        return "Tvým úkolem je nálezt a následně zneškodnit bombu.\n"
         + "\n"
         + "Můžeš zadat tyto příkazy:\n"
         + platnePrikazy.vratNazvyPrikazu();

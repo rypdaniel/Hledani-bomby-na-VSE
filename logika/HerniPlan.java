@@ -30,23 +30,23 @@ public class HerniPlan {
      */
     private void zalozProstoryHry() {
         // vytvářejí se jednotlivé prostory
-        Prostor domecek = new Prostor("domeček","domeček, ve kterém bydlí Karkulka");
-        Prostor chaloupka = new Prostor("chaloupka", "chaloupka, ve které bydlí babička Karkulky");
-        Prostor jeskyne = new Prostor("jeskyně","stará plesnivá jeskyně");
-        Prostor les = new Prostor("les","les s jahodami, malinami a pramenem vody");
-        Prostor hlubokyLes = new Prostor("hluboký_les","temný les, ve kterém lze potkat vlka");
+        Prostor vstup = new Prostor("vstup","Místo před vstupem do budovy");
+        Prostor chodba = new Prostor("chodba", "Dlouhá chodba, kde se náchází spousta místností");
+        Prostor pruchod = new Prostor("průchod","průchod mezi budovami");
+        Prostor kumbal = new Prostor("kumbál","místmost kam se chodí poflakovat školník");
+        Prostor menza = new Prostor("menza","oblíbené místo všech studentů a zeměstnanců");
         
         // přiřazují se průchody mezi prostory (sousedící prostory)
-        domecek.setVychod(les);
-        les.setVychod(domecek);
-        les.setVychod(hlubokyLes);
-        hlubokyLes.setVychod(les);
-        hlubokyLes.setVychod(jeskyne);
-        hlubokyLes.setVychod(chaloupka);
-        jeskyne.setVychod(hlubokyLes);
-        chaloupka.setVychod(hlubokyLes);
+        vstup.setVychod(chodba);
+        chodba.setVychod(vstup);
+        chodba.setVychod(pruchod);
+        pruchod.setVychod(chodba);
+        pruchod.setVychod(kumbal);
+        pruchod.setVychod(menza);
+        menza.setVychod(pruchod);
+        kumbal.setVychod(pruchod);
                 
-        aktualniProstor = domecek;  // hra začíná v domečku       
+        aktualniProstor = vstup;  // hra začíná u vstupu do školy
     }
     
     /**
