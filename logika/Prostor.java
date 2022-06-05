@@ -1,10 +1,6 @@
 package logika;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Set;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -24,7 +20,8 @@ public class Prostor {
     private String nazev;
     private String popis;
     private Set<Prostor> vychody;   // obsahuje sousední místnosti
-
+    private Map<String, Predmet> predmety = new HashMap<>();
+    private Map<String, Postava> postavy = new HashMap<>();
 
     /**
      * Vytvoření prostoru se zadaným popisem, např. "kuchyň", "hala", "trávník
@@ -169,5 +166,48 @@ public class Prostor {
      */
     public Collection<Prostor> getVychody() {
         return Collections.unmodifiableCollection(vychody);
+    }
+
+    /**
+     * zjisti, jestli se v prostoru nachazi daný předmět
+     * @param nazev předmět, který chceme najit
+     * @return true pokud se nachazi, false pokud se nenachayi
+     */
+    public boolean obsahujePredmet(String nazev) {
+        return predmety.containsKey(nazev);
+    }
+    /**
+     * vrati předmět z prostoru
+     * @param nazev nazev předmětu, který chceme vratit
+     * @return vracený předmět
+     */
+    public Predmet vratPredmet(String nazev) {
+        return predmety.get(nazev);
+    }
+    /**
+     * odebere předmět z prostoru
+     * @param nazev nazev předmětu, který chceme odebrat
+     * @return odebraný předmět
+     */
+    public Predmet odeberPredmet(String nazev) {
+        return predmety.remove(nazev);
+    }
+
+    /**
+     * zjisti, jestli se v prostoru nachazi dana postava
+     * @param nazev jmeno postavy, kterou chceme nalezt
+     * @return text jmeno postavy
+     */
+    public boolean obsahujePostavu(String nazev) {
+        return postavy.containsKey(nazev);
+    }
+
+    /**
+     * vrati postavu z prostoru
+     * @param nazev jmeno postavy, kterou chceme vratit
+     * @return vracena postava
+     */
+    public Postava vratPostavu(String  nazev) {
+        return postavy.get(nazev);
     }
 }

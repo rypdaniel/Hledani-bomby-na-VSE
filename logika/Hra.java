@@ -33,7 +33,7 @@ public class Hra implements IHra {
      */
     public String vratUvitani() {
         return "Je začátek zkouškového roku 2025.\n" +
-               "Jsi nenápadný student, který omilem zůstal ve škole i po spuštění varovného signálu.\n" +
+               "Jsi nenápadný student, který omylem zůstal ve škole i po spuštění varovného signálu.\n" +
                "Cílem hry je úspěšně naleznout bombu a tu následně zneškodnit. \n" +
                 "To však nebude jednoduché, protože budeš muset nalézt kleště. \n" +
                "\n" +

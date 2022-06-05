@@ -13,9 +13,8 @@ package logika;
  *@version    pro školní rok 2016/2017
  */
 public class HerniPlan {
-    
     private Prostor aktualniProstor;
-    
+    private Inventar inventar = new Inventar();
      /**
      *  Konstruktor který vytváří jednotlivé prostory a propojuje je pomocí východů.
      *  Jako výchozí aktuální prostor nastaví halu.
@@ -68,4 +67,7 @@ public class HerniPlan {
        aktualniProstor = prostor;
     }
 
+    public Inventar getInventar() {
+        return this.inventar;
+    }
 }
