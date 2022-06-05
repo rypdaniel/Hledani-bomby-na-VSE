@@ -5,33 +5,33 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Class Inventar - inventar, kde se uchovavani sebrane predmety
+ * Class Inventar - inventar, kde se uchovavaji sebrane predmety
  * muzememe si ho kdykoliv zobrazit prikazem inventar
  */
 public class Inventar {
     private Map<String, Predmet> predmety = new HashMap<>();
-    private int penize = 4;
+    private int penize = 55;
 
     /**
      * zkontroluje, jestli inventar neni plny a vlozi vec do inventare
-     * @param vec vec kterou vkladame do inventare
+     * @param  predmet kterou vkladame do inventare
      * @return vraci vec, ktera byla vlozena, null pokud vlozena nebyla
      */
-    public Predmet vlozVec(Predmet vec) {
+    public Predmet vlozPredmet(Predmet predmet) {
         if(!jePlny()) {
-            predmety.put(vec.getNazev(), vec); //vloží klíč a hodnotu do mapy
-            if (predmety.containsKey(vec.getNazev())) return vec;
+            predmety.put(predmet.getNazev(), predmet); //vloží klíč a hodnotu do mapy
+            if (predmety.containsKey(predmet.getNazev())) return predmet;
         }
         return null;
     }
 
     /**
      * zobrazi obsah inventare
-     * @return obsah inventare
+     * @return obsah batohu
      */
     public String zobrazitObsah() {
 
-        String vracenyText = "Obsah inventáře: \n";
+        String vracenyText = "Obsah batohu: \n";
         if(predmety.size()>0) {
             for (Map.Entry<String, Predmet> vec : predmety.entrySet()) {
                 vracenyText += vec.getKey() + ", ";
@@ -39,7 +39,7 @@ public class Inventar {
             vracenyText = vracenyText.substring(0, vracenyText.length()-2);
         }
         else {
-            vracenyText += "nic";
+            vracenyText += "nic nevlastníš";
         }
 
         return vracenyText + "\n" + "V peněžence máš: " + this.penize + " Kč";
@@ -47,7 +47,7 @@ public class Inventar {
 
     /**
      * vraci mnozstvi penez v inventare
-     * @return mnozstvi penez
+     * @return mnozstvi penez v peněžence
      */
     public int getPenize() {
         return this.penize;
@@ -76,32 +76,32 @@ public class Inventar {
     }
 
     /**
-     * zjisti, jestli se v inventari nachazi dana vec
-     * @param nazev nazev veci, kterou chceme zjistit
-     * @return vrati true, pokud vec v inventari je, false pokud neni
+     * zjisti, jestli se v inventari nachazi daný předmět
+     * @param nazev nazev predmetu, který chceme zjistit
+     * @return vrati true, pokud predmet v inventari je, false pokud neni
      */
-    public Boolean obsahujeVec(String nazev) {
+    public Boolean obsahujePredmet(String nazev) {
         return predmety.containsKey(nazev);
     }
 
     /**
-     * vrati vec z inventare
-     * @param nazev nazev veci, kterou chceme vratit
-     * @return vracena vec
+     * vrati předmět z inventare
+     * @param nazev nazev předmětu, který chceme vratit
+     * @return vracený poředmět
      */
-    public Predmet vratVec(String nazev) {
+    public Predmet vratPredmet(String nazev) {
         return predmety.get(nazev);
     }
 
     /**
-     * odebere vec z inventare
-     * @param nazev nazev veci, kterou chceme odebrat
-     * @return vrati vec, kterou jsme odebrali
+     * odebere předmět z inventare
+     * @param nazev nazev předmětu, kterou chceme odebrat
+     * @return vrati předmět, který jsme odebrali
      */
-    public Predmet odeberVec(String nazev) {
-        Predmet vec = predmety.get(nazev);
+    public Predmet odeberPredmet(String nazev) {
+        Predmet predmet = predmety.get(nazev);
         predmety.remove(nazev);
-        return vec;
+        return predmet;
     }
 
     /**

@@ -6,9 +6,9 @@ package logika;
  *    @version pro školní rok 2021/22
  */
 public class Predmet {
-    private String nazev;
-    private String zobrazeni;
-    private Boolean lzeVzit;
+    private final String nazev;
+    private final String zobrazeni;
+    private final Boolean lzeVzit;
     private int cena = 0;
 
     public Predmet(String nazev, String zobrazeni, Boolean lzeVzit) {
@@ -29,7 +29,7 @@ public class Predmet {
      * vrati screenNazev veci
      * @return text screenNazev veci
      */
-    public String getScreenNazev() {
+    public String getZobrazeni() {
         return this.zobrazeni;
     }
 

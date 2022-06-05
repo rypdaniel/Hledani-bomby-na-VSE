@@ -44,3 +44,4 @@ public class Prikaz implements IPrikaz {
         return this.plan;
     }
 }
+
