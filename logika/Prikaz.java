@@ -8,11 +8,11 @@ package logika;
  *    @version pro školní rok 2021/22
  */
 public class Prikaz implements IPrikaz {
-    private String Name;
+    private String NAME;
     private HerniPlan plan;
 
-    public Prikaz(String Name, HerniPlan plan){
-        this.Name = Name;
+    public Prikaz(String name, HerniPlan plan){
+        this.NAME = name;
         this.plan = plan;
 
     }
@@ -32,7 +32,7 @@ public class Prikaz implements IPrikaz {
      */
     @Override
     public String getNazev() {
-        return null;
+        return this.NAME;
     }
 
     /**

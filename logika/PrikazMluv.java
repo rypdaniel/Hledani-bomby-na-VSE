@@ -9,7 +9,7 @@ public class PrikazMluv extends Prikaz{
      * @param plan
      */
     public PrikazMluv(HerniPlan plan) {
-        super("mluvit", plan );
+        super("mluv", plan );
     }
 
     /**
@@ -28,7 +28,7 @@ public class PrikazMluv extends Prikaz{
             return this.getHerniPlan().getAktualniProstor().vratPostavu(parametry[0]).mluv();
 
         }
-        return "Tenhle předmět tu není.";
+        return "Tahle osoba tu není";
     }
 
 }

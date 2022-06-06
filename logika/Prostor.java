@@ -116,7 +116,9 @@ public class Prostor {
      */
     public String dlouhyPopis() {
         return "Jsi v mistnosti/prostoru " + popis + ".\n"
-                + popisVychodu();
+                + popisVychodu()+ "\n"
+                + popisVeci() + "\n"
+                + popisPostavy();
     }
 
     /**
@@ -131,6 +133,39 @@ public class Prostor {
             vracenyText += " " + sousedni.getNazev();
         }
         return vracenyText;
+    }
+    /**
+     * vrati popis veci v prostoru
+     * @return text popisu veci
+     */
+    private String popisVeci() {
+        String vracenyText = "předměty k sebrání: ";
+        if(predmety.size()>0) {
+            for (Map.Entry<String, Predmet> vec : predmety.entrySet()) {
+                vracenyText += vec.getValue().getZobrazeni() + ", ";
+            }
+            return vracenyText.substring(0, vracenyText.length()-2);
+        }
+        else {
+            return vracenyText += "zde není nic k sebrání";
+        }
+    }
+
+    /**
+     * vrati popis postav v prostoru
+     * @return popis postav
+     */
+    private String popisPostavy() {
+        String vracenyText = "postavy: ";
+        if(postavy.size()>0) {
+            for (Map.Entry<String, Postava> postava : postavy.entrySet()) {
+                vracenyText += postava.getValue().getZobrazJmeno().substring(0,1).toUpperCase() + postava.getValue().getZobrazJmeno().substring(1) + ", ";
+            }
+            return vracenyText.substring(0, vracenyText.length()-2);
+        }
+        else {
+            return vracenyText += "zde nejsou žádné postavy";
+        }
     }
 
     /**
@@ -209,5 +244,33 @@ public class Prostor {
      */
     public Postava vratPostavu(String  nazev) {
         return postavy.get(nazev);
+    }
+
+    /**
+     * vlozi vec do prostoru
+     *
+     * @param predmet nazev predmetu, který chceme do prostoru vlozit
+     * @return vlozeny predmet
+     */
+    public Predmet vlozPredmet(Predmet predmet) {
+        predmety.put(predmet.getNazev(), predmet);
+        if (predmety.containsKey(predmet.getNazev())) {
+            return predmet;
+        }
+        return null;
+    }
+
+    /**
+     * vlozi postavu do prostoru
+     *
+     * @param postava jmeno postavy, kterou chceme vlozit
+     * @return postava, ktera se vlozila
+     */
+    public Postava vlozPostavu(Postava postava) {
+        postavy.put(postava.getJmeno(), postava);
+        if (predmety.containsKey(postava.getJmeno())) {
+            return postava;
+        }
+        return null;
     }
 }

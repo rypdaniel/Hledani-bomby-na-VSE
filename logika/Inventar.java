@@ -11,6 +11,17 @@ import java.util.Map;
 public class Inventar {
     private Map<String, Predmet> predmety = new HashMap<>();
     private int penize = 55;
+    private int pocetVeci;
+
+
+    /**
+     * Konstruktor pro třídu inventář.
+     * Nastavuje proměnnou pocetVeci, ta nastavuje počet věcí v inventáři.
+     */
+    public Inventar(){
+        this.predmety = new HashMap<String, Predmet>();
+        pocetVeci = 0;
+    }
 
     /**
      * zkontroluje, jestli inventar neni plny a vlozi vec do inventare

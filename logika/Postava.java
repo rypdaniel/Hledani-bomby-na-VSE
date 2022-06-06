@@ -21,7 +21,7 @@ public class Postava implements Ipostava{
     private Boolean jizMluvil = false;
     private Boolean probehlaVymena = false;
 
-    public Postava(String jmeno, String zobrazJmeno, Predmet coChce, Predmet coVlastní, String mluvPo, String mluvPred, String chceMluvit, String nechceMluvit){
+    public Postava(String jmeno, String zobrazJmeno, Predmet coChce, Predmet coVlastní, String mluvPred, String mluvPo, String chceMluvit, String nechceMluvit){
         this.jmeno = jmeno;
         this.coChce = coChce;
         this.coVlastní = coVlastní;

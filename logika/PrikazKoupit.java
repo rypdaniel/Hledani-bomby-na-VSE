@@ -3,7 +3,7 @@ package logika;
 public class PrikazKoupit extends Prikaz{
 
     public PrikazKoupit(HerniPlan plan){
-        super("Koupit", plan);
+        super("koupit", plan);
     }
     @Override
     public String provedPrikaz(String... parametry) {
@@ -17,7 +17,7 @@ public class PrikazKoupit extends Prikaz{
             else if(parametry.length == 1 && this.getHerniPlan().getAktualniProstor().obsahujePredmet(parametry[0])) {
                 Predmet vec = this.getHerniPlan().getAktualniProstor().vratPredmet(parametry[0]);
                 if(this.getHerniPlan().getInventar().odecistPenize(vec.getCena())){
-                    this.getHerniPlan().getInventar().vlozVec(this.getHerniPlan().getAktualniProstor().odeberPredmet(parametry[0]));
+                    this.getHerniPlan().getInventar().vlozPredmet(this.getHerniPlan().getAktualniProstor().odeberPredmet(parametry[0]));
                     return "Koupil jsi "+ parametry[0] + ".";
                 }
                 return "Nemáš dostatek peněz";
