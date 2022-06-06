@@ -10,14 +10,14 @@ import java.util.Map;
  */
 
 public class Postava implements Ipostava{
-    private String jmeno;
-    private String zobrazJmeno;
+    private final String jmeno;
+    private final String zobrazJmeno;
     private Predmet coChce;
     private Predmet coVlastní;
-    private String mluvPred;
-    private String mluvPo;
-    private String chceMluvit;
-    private String nechceMluvit;
+    private final String mluvPred;
+    private final String mluvPo;
+    private final String chceMluvit;
+    private final String nechceMluvit;
     private Boolean jizMluvil = false;
     private Boolean probehlaVymena = false;
 
@@ -83,29 +83,6 @@ public class Postava implements Ipostava{
         return coVlastní;
     }
 
-    /**
-     * vrati, co postava rika pred vymenou
-     * @return text, co postava rika pred vymenou
-     */
-    public String getMluvPred() {
-        return mluvPred;
-    }
-
-    /**
-     * vrati, co postava rekne po vymene
-     * @return text, co postava rika po vymene
-     */
-    public String getMluvPo() {
-        return mluvPo;
-    }
-
-    /**
-     * vrati, co postava rekne pokud predmet nechce
-     * @return text, co postava rekne pokud predmet nechce
-     */
-    public String getNechceMluvit() {
-        return nechceMluvit;
-    }
 
     /**
      * vrati, co postava rekne pokud predmet chce
@@ -115,13 +92,6 @@ public class Postava implements Ipostava{
         return chceMluvit;
     }
 
-    /**
-     * zjisti, jestli probehla vymena
-     * @return vrati true, pokud vymena probehla, false pokud ne
-     */
-    public Boolean getProbehlaVymena() {
-        return probehlaVymena;
-    }
 
     /**
      * vrati jmeno postavy
@@ -146,45 +116,7 @@ public class Postava implements Ipostava{
     public Boolean getJizMluvil() {
         return jizMluvil;
     }
-    /**
-     * nastavi jakou vec postava chce
-     * @param coChce vec, kterou postava chce
-     */
-    public void setCoChce(Predmet coChce) {
-        this.coChce = coChce;
-    }
 
-    /**
-     * nastavi který předmět postava ma
-     * @param coVlastní předmet který chceme, aby postava mela
-     */
-    public void setCoMa(Predmet coVlastní) {
-        this.coVlastní = coVlastní;
-    }
-
-    /**
-     * nastavi, zda vymena probehla nebo ne
-     * @param probehlaVymena hodnota, jestli vymena probehla nebo ne
-     */
-    public void setProbehlaVymena(Boolean probehlaVymena) {
-        this.probehlaVymena = probehlaVymena;
-    }
-
-    /**
-     * nastavi co postava rekne pokud vec cchce
-     * @param chceMluvit text, co ma postava rict
-     */
-    public void setChceMluvit(String chceMluvit) {
-        this.chceMluvit = chceMluvit;
-    }
-
-    /**
-     * nastavi, co bude postava rikat po vymene
-     * @param mluvPo text, co postava bude rikat
-     */
-    public void setMluvPo(String mluvPo) {
-        this.mluvPo = mluvPo;
-    }
 
     /**
      * vrati screenJmeno

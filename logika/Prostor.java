@@ -1,7 +1,6 @@
 package logika;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * Trida Prostor - popisuje jednotlivé prostory (místnosti) hry
@@ -17,11 +16,11 @@ import java.util.stream.Collectors;
  */
 public class Prostor {
 
-    private String nazev;
-    private String popis;
-    private Set<Prostor> vychody;   // obsahuje sousední místnosti
-    private Map<String, Predmet> predmety = new HashMap<>();
-    private Map<String, Postava> postavy = new HashMap<>();
+    private final String nazev;
+    private final String popis;
+    private final Set<Prostor> vychody;   // obsahuje sousední místnosti
+    private final Map<String, Predmet> predmety = new HashMap<>();
+    private final Map<String, Postava> postavy = new HashMap<>();
 
     /**
      * Vytvoření prostoru se zadaným popisem, např. "kuchyň", "hala", "trávník
@@ -68,13 +67,12 @@ public class Prostor {
             return true;
         }
         // porovnáváme jakého typu je parametr 
-        if (!(o instanceof Prostor)) {
+        if (!(o instanceof Prostor druhy)) {
             return false;    // pokud parametr není typu Prostor, vrátíme false
         }
-        // přetypujeme parametr na typ Prostor 
-        Prostor druhy = (Prostor) o;
+        // přetypujeme parametr na typ Prostor
 
-        //metoda equals třídy java.util.Objects porovná hodnoty obou názvů. 
+          //metoda equals třídy java.util.Objects porovná hodnoty obou názvů.
         //Vrátí true pro stejné názvy a i v případě, že jsou oba názvy null,
         //jinak vrátí false.
 
@@ -128,26 +126,26 @@ public class Prostor {
      * @return Popis východů - názvů sousedních prostorů
      */
     private String popisVychodu() {
-        String vracenyText = "východy:";
+        StringBuilder vracenyText = new StringBuilder("východy:");
         for (Prostor sousedni : vychody) {
-            vracenyText += " " + sousedni.getNazev();
+            vracenyText.append(" ").append(sousedni.getNazev());
         }
-        return vracenyText;
+        return vracenyText.toString();
     }
     /**
      * vrati popis veci v prostoru
      * @return text popisu veci
      */
-    private String popisVeci() {
-        String vracenyText = "předměty k sebrání: ";
+    private StringBuilder popisVeci() {
+        StringBuilder vracenyText = new StringBuilder("předměty k sebrání: ");
         if(predmety.size()>0) {
             for (Map.Entry<String, Predmet> vec : predmety.entrySet()) {
-                vracenyText += vec.getValue().getZobrazeni() + ", ";
+                vracenyText.append(vec.getValue().getZobrazeni()).append(", ");
             }
-            return vracenyText.substring(0, vracenyText.length()-2);
+            return new StringBuilder(vracenyText.substring(0, vracenyText.length() - 2));
         }
         else {
-            return vracenyText += "zde není nic k sebrání";
+            return vracenyText.append("zde není nic k sebrání");
         }
     }
 
@@ -156,15 +154,15 @@ public class Prostor {
      * @return popis postav
      */
     private String popisPostavy() {
-        String vracenyText = "postavy: ";
+        StringBuilder vracenyText = new StringBuilder("postavy: ");
         if(postavy.size()>0) {
             for (Map.Entry<String, Postava> postava : postavy.entrySet()) {
-                vracenyText += postava.getValue().getZobrazJmeno().substring(0,1).toUpperCase() + postava.getValue().getZobrazJmeno().substring(1) + ", ";
+                vracenyText.append(postava.getValue().getZobrazJmeno().substring(0, 1).toUpperCase()).append(postava.getValue().getZobrazJmeno().substring(1)).append(", ");
             }
             return vracenyText.substring(0, vracenyText.length()-2);
         }
         else {
-            return vracenyText += "zde nejsou žádné postavy";
+            return String.valueOf(vracenyText.append("zde nejsou žádné postavy"));
         }
     }
 
@@ -178,10 +176,9 @@ public class Prostor {
      * null, pokud prostor zadaného jména není sousedem.
      */
     public Prostor vratSousedniProstor(String nazevSouseda) {
-        List<Prostor>hledaneProstory = 
-            vychody.stream()
-                   .filter(sousedni -> sousedni.getNazev().equals(nazevSouseda))
-                   .collect(Collectors.toList());
+        List<Prostor>hledaneProstory =
+                vychody.stream()
+                        .filter(sousedni -> sousedni.getNazev().equals(nazevSouseda)).toList();
         if(hledaneProstory.isEmpty()){
             return null;
         }
@@ -190,18 +187,15 @@ public class Prostor {
         }
     }
 
-    /**
-     * Vrací kolekci obsahující prostory, se kterými tento prostor sousedí.
-     * Takto získaný seznam sousedních prostor nelze upravovat (přidávat,
-     * odebírat východy) protože z hlediska správného návrhu je to plně
-     * záležitostí třídy Prostor.
-     *
-     * @return Nemodifikovatelná kolekce prostorů (východů), se kterými tento
+    /*
+      Vrací kolekci obsahující prostory, se kterými tento prostor sousedí.
+      Takto získaný seznam sousedních prostor nelze upravovat (přidávat,
+      odebírat východy) protože z hlediska správného návrhu je to plně
+      záležitostí třídy Prostor.
+
+      @return Nemodifikovatelná kolekce prostorů (východů), se kterými tento
      * prostor sousedí.
      */
-    public Collection<Prostor> getVychody() {
-        return Collections.unmodifiableCollection(vychody);
-    }
 
     /**
      * zjisti, jestli se v prostoru nachazi daný předmět
@@ -250,27 +244,17 @@ public class Prostor {
      * vlozi vec do prostoru
      *
      * @param predmet nazev predmetu, který chceme do prostoru vlozit
-     * @return vlozeny predmet
      */
-    public Predmet vlozPredmet(Predmet predmet) {
+    public void vlozPredmet(Predmet predmet) {
         predmety.put(predmet.getNazev(), predmet);
-        if (predmety.containsKey(predmet.getNazev())) {
-            return predmet;
-        }
-        return null;
     }
 
     /**
      * vlozi postavu do prostoru
      *
      * @param postava jmeno postavy, kterou chceme vlozit
-     * @return postava, ktera se vlozila
      */
-    public Postava vlozPostavu(Postava postava) {
+    public void vlozPostavu(Postava postava) {
         postavy.put(postava.getJmeno(), postava);
-        if (predmety.containsKey(postava.getJmeno())) {
-            return postava;
-        }
-        return null;
     }
 }

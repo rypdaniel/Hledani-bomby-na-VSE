@@ -8,9 +8,6 @@ package logika;
  */
 
 public class PrikazInventar extends Prikaz {
-    private static final String NAZEV = "inventar";
-    private HerniPlan plan;
-
         public PrikazInventar(HerniPlan plan) {
             super("invetar", plan);
         }

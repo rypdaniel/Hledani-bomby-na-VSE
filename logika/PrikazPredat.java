@@ -35,7 +35,6 @@ public class PrikazPredat extends Prikaz{
             if (aktualniProstor.obsahujePostavu(parametry[1])) {
                 Postava postava = aktualniProstor.vratPostavu(parametry[1]);
                 Predmet predmetChce = postava.getCoChce();
-                Predmet predmetVlasni = postava.getCoVlastní();
                 if (predmetChce != null && postava.getJizMluvil()) {
                     if (predmetChce.getNazev().equals(parametry[0])) {
                         Map<String, Predmet> tradePredmet = postava.vymenitPredmet(predmetChce);

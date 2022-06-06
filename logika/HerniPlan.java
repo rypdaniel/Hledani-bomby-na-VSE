@@ -16,17 +16,14 @@ import java.util.Map;
  *@version    pro školní rok 2016/2017
  */
 public class HerniPlan {
-    private Hra hra;
     private Prostor aktualniProstor;
-    private Inventar inventar = new Inventar();
-    private Map<String, Prostor> prostory = new HashMap<>();
-    private Map<String, Postava> postavy = new HashMap<>();
+    private final Inventar inventar = new Inventar();
+    private final Map<String, Prostor> prostory = new HashMap<>();
      /**
      *  Konstruktor který vytváří jednotlivé prostory a propojuje je pomocí východů.
      *  Jako výchozí aktuální prostor nastaví halu.
      */
-    public HerniPlan(Hra hra) {
-        this.hra = hra;
+    public HerniPlan() {
         zalozProstoryHry();
 
     }
@@ -60,17 +57,19 @@ public class HerniPlan {
         kumbal.setVychod(pruchod);
 
 
-        /**
-         * Definuje věci, které se ve hře vyskytují
+        /*
+          Definuje věci, které se ve hře vyskytují
          */
-        Predmet potraviny = new Predmet("Potraviny", "Potraviny", true);
-        Predmet kleste = new Predmet("Kleště", "Kleste", true);
-        Predmet pivo = new Predmet("Pivo", "Pivo", true);
-        Predmet BOMBA = new Predmet("Bomba","Bomba",false);
-        Predmet Polevka = new Predmet("Polévka","Polévka",false);
+        Predmet potraviny = new Predmet("Potraviny", "Potraviny", true,false);
+        Predmet kleste = new Predmet("Kleště", "Kleste", true,false);
+        Predmet pivo = new Predmet("Pivo", "Pivo", true,false);
+        Predmet BOMBA = new Predmet("Bomba","Bomba",false,true);
+        Predmet Polevka = new Predmet("Polévka","Polévka",false, false);
+        Predmet Voda = new Predmet("Voda","Voda",false, false);
         Polevka.setCena(50);
-        potraviny.setCena(150);
+        Voda.setCena(5);
         menza.vlozPredmet(Polevka);
+        menza.vlozPredmet(Voda);
         kumbal.vlozPredmet(pivo);
         kumbal.vlozPredmet(potraviny);
         pruchod.vlozPredmet(BOMBA);
@@ -78,18 +77,23 @@ public class HerniPlan {
 
 
 
-        /**
-         * Interakce s vrátným
+        /*
+          Interakce s vrátným
          */
-        Vratny vratny = new Vratny("Vrátný", "Vrátný",pivo,kleste,"Dobrý den, co by jste potřeboval\n"
-                +"potřeoval bych kleště na zneškodnění bomby, nemáte náhodou nějaký?\n"+"Ano, nějáký tu mám, ale nebude to zadarmo\n"+"Co by jste tedy za ně chtěl\n"+"Dojdi mi do kumbálo pro jedno pivko\n"+"Dobrá, za chvilku tu jsem" ,null,"Jak se vám daří?",null);
-        /**
-        * Interakce s kuchařkou
+        Vratny vratny = new Vratny("Vrátný", "Vrátný",pivo,kleste, """
+                Dobrý den, co by jste potřeboval
+                potřeoval bych kleště na zneškodnění bomby, nemáte náhodou nějaký?
+                Ano, nějáký tu mám, ale nebude to zadarmo
+                Co by jste tedy za ně chtěl
+                Dojdi mi do kumbálo pro jedno pivko
+                Dobrá, za chvilku tu jsem""",null,"Díky, snad ti to pomůže.",null);
+        /*
+         Interakce s kuchařkou
         */
-        Kucharka kucharka = new Kucharka("Kuchařka","Kuchařka",potraviny,null,"Dobry den, můžu vám nabídnou polévku za 50 Kč. Nebo můžu od vás odkoupit potraviny za 150 Kč","Dobry den, můžu vám nabídnou polévku za 50 Kč. Nebo můžu od vás odkoupit potraviny za 150 Kč","Tohle neberu","Děkuji, tady máte svoje peníze");
+        Kucharka kucharka = new Kucharka("Kuchařka","Kuchařka",potraviny,Voda,"Dobry den, můžu vám nabídnou polévku za 50 Kč. Nebo můžu od vás odkoupit potraviny za 150 Kč","Dobry den, můžu vám nabídnou polévku za 50 Kč. Nebo můžu od vás odkoupit potraviny za 150 Kč","Tohle neberu","Děkuji, tady máte svoje peníze");
 
-        /**
-         * Vkládá postavy do daných prostorů
+        /*
+          Vkládá postavy do daných prostorů
          */
         vstup.vlozPostavu(vratny);
         menza.vlozPostavu(kucharka);
@@ -99,8 +103,6 @@ public class HerniPlan {
                 
         aktualniProstor = vstup;  // hra začíná u vstupu do školy
     }
-
-
 
 
     /**
@@ -121,26 +123,11 @@ public class HerniPlan {
     public void setAktualniProstor(Prostor prostor) {
        aktualniProstor = prostor;
     }
-    /**
-     * metoda vraci vsechny prostory
-     * @return
-     */
-    public Map<String, Prostor> getProstory() {
-        return prostory;
-    }
-
-    /**
-     * metoda vraci vsechny postavy
-     * @return
-     */
-    public Map<String, Postava> getPostavy() {
-        return postavy;
-    }
 
 
     /**
      * vrati inventar
-     * @return
+     * @return vrati inventar
      */
     public Inventar getInventar() {
         return this.inventar;

@@ -1,5 +1,7 @@
 package logika;
 
+import java.util.Objects;
+
 public class PrikazKoupit extends Prikaz{
 
     public PrikazKoupit(HerniPlan plan){
@@ -8,7 +10,7 @@ public class PrikazKoupit extends Prikaz{
     @Override
     public String provedPrikaz(String... parametry) {
 
-        if(this.getHerniPlan().getAktualniProstor().getNazev()=="menza") {
+        if(Objects.equals(this.getHerniPlan().getAktualniProstor().getNazev(), "menza")) {
             //muzu koupit
             if (parametry.length == 0) {
                 // pokud chybí druhé slovo, tak ....

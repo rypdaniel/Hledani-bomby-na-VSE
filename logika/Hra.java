@@ -13,15 +13,15 @@ package logika;
  */
 
 public class Hra implements IHra {
-    private SeznamPrikazu platnePrikazy;    // obsahuje seznam přípustných příkazů
-    private HerniPlan herniPlan;
+    private final SeznamPrikazu platnePrikazy;    // obsahuje seznam přípustných příkazů
+    private final HerniPlan herniPlan;
     private boolean konecHry = false;
 
     /**
      *  Vytváří hru a inicializuje místnosti (prostřednictvím třídy HerniPlan) a seznam platných příkazů.
      */
     public Hra() {
-        herniPlan = new HerniPlan(this);
+        herniPlan = new HerniPlan();
         platnePrikazy = new SeznamPrikazu();
         platnePrikazy.vlozPrikaz(new PrikazNapoveda(platnePrikazy));
         platnePrikazy.vlozPrikaz(new PrikazJdi(herniPlan));
@@ -29,6 +29,7 @@ public class Hra implements IHra {
         platnePrikazy.vlozPrikaz(new PrikazKoupit(herniPlan));
         platnePrikazy.vlozPrikaz(new PrikazInventar(herniPlan));
         platnePrikazy.vlozPrikaz(new PrikazPredat(herniPlan));
+        platnePrikazy.vlozPrikaz(new PrikazZneskodni(herniPlan));
         platnePrikazy.vlozPrikaz(new PrikazSebrat(herniPlan));
         platnePrikazy.vlozPrikaz(new PrikazKonec(this));
     }
@@ -71,10 +72,8 @@ public class Hra implements IHra {
         String [] slova = radek.split("[ \t]+");
         String slovoPrikazu = slova[0];
         String []parametry = new String[slova.length-1];
-        for(int i=0 ;i<parametry.length;i++){
-           	parametry[i]= slova[i+1];  	
-        }
-        String textKVypsani=" .... ";
+         System.arraycopy(slova, 1, parametry, 0, parametry.length);
+        String textKVypsani;
         if (platnePrikazy.jePlatnyPrikaz(slovoPrikazu)) {
             IPrikaz prikaz = platnePrikazy.vratPrikaz(slovoPrikazu);
             textKVypsani = prikaz.provedPrikaz(parametry);
@@ -89,11 +88,10 @@ public class Hra implements IHra {
      /**
      *  Nastaví, že je konec hry, metodu využívá třída PrikazKonec,
      *  mohou ji použít i další implementace rozhraní Prikaz.
-     *  
-     *  @param  konecHry  hodnota false= konec hry, true = hra pokračuje
-     */
-    void setKonecHry(boolean konecHry) {
-        this.konecHry = konecHry;
+     *
+      */
+    void setKonecHry() {
+        this.konecHry = true;
     }
     
      /**

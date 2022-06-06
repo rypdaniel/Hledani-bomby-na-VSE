@@ -9,12 +9,14 @@ public class Predmet {
     private final String nazev;
     private final String zobrazeni;
     private final Boolean lzeVzit;
+    private final Boolean lzeZneskodnit;
     private int cena = 0;
 
-    public Predmet(String nazev, String zobrazeni, Boolean lzeVzit) {
+    public Predmet(String nazev, String zobrazeni, Boolean lzeVzit, Boolean lzeZneskodnit) {
         this.nazev = nazev;
         this.lzeVzit = lzeVzit;
         this.zobrazeni = zobrazeni;
+        this.lzeZneskodnit = lzeZneskodnit;
     }
 
     /**
@@ -56,4 +58,15 @@ public class Predmet {
     public int getCena() {
         return this.cena;
     }
+
+
+
+    /**
+     * vrati, zda lze predmet zneskodnit
+     * @return true pokud jde zneskodnit, false pokud nelze
+     */
+    public Boolean getLzeZneskodnit() {
+        return lzeZneskodnit;
+    }
 }
+

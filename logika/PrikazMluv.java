@@ -1,13 +1,14 @@
 package logika;
 
+/**
+ * Class PrikazMluv - dedi ze tridy Prikaz
+ * @author Daniel Rypl
+ *    @version pro školní rok 2021/22
+ */
+
 public class PrikazMluv extends Prikaz{
 
-    /**
-     * Class PrikazMluv - dedi ze tridy Prikaz
-     * @author Daniel Rypl
-     *    @version pro školní rok 2021/22
-     * @param plan
-     */
+
     public PrikazMluv(HerniPlan plan) {
         super("mluv", plan );
     }
@@ -15,7 +16,7 @@ public class PrikazMluv extends Prikaz{
     /**
      * metoda promluvi na danou postavu
      * @param parametry počet parametrů závisí na konkrétním příkazu.
-     * @return
+     * @return promluví na danou postavu
      */
     @Override
     public String provedPrikaz(String... parametry) {

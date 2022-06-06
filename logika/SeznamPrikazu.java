@@ -17,7 +17,7 @@ import java.util.Map;
  */
 class SeznamPrikazu {
     // mapa pro uložení přípustných příkazů
-    private  Map<String,IPrikaz> mapaSPrikazy;
+    private  final Map<String,IPrikaz> mapaSPrikazy;
     
    
     
@@ -46,12 +46,7 @@ class SeznamPrikazu {
      *@return          instance třídy, která provede požadovaný příkaz
      */
     public IPrikaz vratPrikaz(String retezec) {
-        if (mapaSPrikazy.containsKey(retezec)) {
-            return mapaSPrikazy.get(retezec);
-        }
-        else {
-            return null;
-        }
+        return mapaSPrikazy.getOrDefault(retezec, null);
     }
 
     /**
@@ -71,11 +66,11 @@ class SeznamPrikazu {
      *  @return     Řetězec, který obsahuje seznam přípustných příkazů
      */
     public String vratNazvyPrikazu() {
-        String seznam = "";
+        StringBuilder seznam = new StringBuilder();
         for (String slovoPrikazu : mapaSPrikazy.keySet()){
-            seznam += slovoPrikazu + " ";
+            seznam.append(slovoPrikazu).append(" ");
         }
-        return seznam;
+        return seznam.toString();
     }
     
 }

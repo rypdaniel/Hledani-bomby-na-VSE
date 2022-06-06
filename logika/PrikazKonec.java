@@ -13,7 +13,7 @@ class PrikazKonec implements IPrikaz {
 
     private static final String NAZEV = "konec";
 
-    private Hra hra;
+    private final Hra hra;
 
     /**
      *  Konstruktor třídy
@@ -37,7 +37,7 @@ class PrikazKonec implements IPrikaz {
             return "Ukončit co? Nechápu, proč jste zadal druhé slovo.";
         }
         else {
-            hra.setKonecHry(true);
+            hra.setKonecHry();
             return "hra ukončena příkazem konec";
         }
     }
