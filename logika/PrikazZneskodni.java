@@ -21,9 +21,10 @@ public class PrikazZneskodni extends Prikaz{
         if (parametry.length == 0) {
             return "Na co mám použít příkaz zneškodni";
         }
+        //Ukončí hru
         else if (parametry.length == 1 && this.getHerniPlan().getAktualniProstor().obsahujePredmet("Bomba")&& this.getHerniPlan().getInventar().obsahujePredmet("Kleště")) {
-            return "Bomba je zneškodněna";
-
+            System.out.println("Bomba byla zneškodněna. Děkuji za hru <3");
+            System.exit(0);
         }
         else if(parametry.length == 1 && this.getHerniPlan().getAktualniProstor().obsahujePredmet("Bomba")){
             return "Potřebujete Kleště";

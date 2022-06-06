@@ -79,7 +79,7 @@ public class Hra implements IHra {
             textKVypsani = prikaz.provedPrikaz(parametry);
         }
         else {
-            textKVypsani="Nevím co tím myslíš? Tento příkaz neznám. ";
+            textKVypsani="Nevím co tím myslíš? Tento příkaz neznám.";
         }
         return textKVypsani;
     }

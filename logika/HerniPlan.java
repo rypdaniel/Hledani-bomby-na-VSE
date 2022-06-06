@@ -104,7 +104,6 @@ public class HerniPlan {
         aktualniProstor = vstup;  // hra začíná u vstupu do školy
     }
 
-
     /**
      *  Metoda vrací odkaz na aktuální prostor, ve ktetém se hráč právě nachází.
      *
