@@ -90,7 +90,7 @@ public class HerniPlan {
         /*
          Interakce s kuchařkou
         */
-        Kucharka kucharka = new Kucharka("Kuchařka","Kuchařka",potraviny,Voda,"Dobry den, můžu vám nabídnou polévku za 50 Kč. Nebo můžu od vás odkoupit potraviny za 150 Kč","Dobry den, můžu vám nabídnou polévku za 50 Kč. Nebo můžu od vás odkoupit potraviny za 150 Kč","Tohle neberu","Děkuji, tady máte svoje peníze");
+        Kucharka kucharka = new Kucharka("Kuchařka","Kuchařka",potraviny,Voda,"Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč","Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč","Tohle neberu","Děkuji, tady máte svoje peníze");
 
         /*
           Vkládá postavy do daných prostorů
