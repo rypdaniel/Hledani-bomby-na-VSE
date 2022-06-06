@@ -9,6 +9,7 @@ import java.util.Map;
  *    @version pro školní rok 2021/22
  */
 
+@SuppressWarnings("ALL")
 public class Postava implements Ipostava{
     private final String jmeno;
     private final String zobrazJmeno;

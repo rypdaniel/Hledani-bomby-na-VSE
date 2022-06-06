@@ -66,6 +66,7 @@ public class HerniPlan {
         Predmet BOMBA = new Predmet("Bomba","Bomba",false,true);
         Predmet Polevka = new Predmet("Polévka","Polévka",false, false);
         Predmet Voda = new Predmet("Voda","Voda",false, false);
+        Predmet Mapa = new Predmet("Mapa","Mapa", true,false);
         Polevka.setCena(50);
         Voda.setCena(5);
         menza.vlozPredmet(Polevka);
@@ -73,6 +74,7 @@ public class HerniPlan {
         kumbal.vlozPredmet(pivo);
         kumbal.vlozPredmet(potraviny);
         pruchod.vlozPredmet(BOMBA);
+        chodba.vlozPredmet(Mapa);
 
 
 
@@ -87,18 +89,29 @@ public class HerniPlan {
                 Co by jste tedy za ně chtěl
                 Dojdi mi do kumbálo pro jedno pivko
                 Dobrá, za chvilku tu jsem""",null,"Díky, snad ti to pomůže.",null);
+
         /*
          Interakce s kuchařkou
         */
         Kucharka kucharka = new Kucharka("Kuchařka","Kuchařka",potraviny,Voda,"Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč","Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč","Tohle neberu","Děkuji, tady máte svoje peníze");
 
         /*
+         Interakce se skolnikem
+        */
+        Skolnik skolnik = new Skolnik("Skolnik", "Skolnik",null,null,"Pomoc Pomoc Pomoc!!!!! je tu bomba",null,null,null);
+
+        /*
+         Interakce s policistou
+        */
+        Policista policista = new Policista("Policista", "Policista",null, null,"POZOR POZOR POZOR, nikdo nechoďte do budovy!!!!! Je tam Bomba",null,null,null);
+
+        /*
           Vkládá postavy do daných prostorů
          */
         vstup.vlozPostavu(vratny);
         menza.vlozPostavu(kucharka);
-
-
+        pruchod.vlozPostavu(skolnik);
+        vstup.vlozPostavu(policista);
 
                 
         aktualniProstor = vstup;  // hra začíná u vstupu do školy

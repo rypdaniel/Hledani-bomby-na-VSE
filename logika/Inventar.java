@@ -70,7 +70,6 @@ public class Inventar {
      * @param nazev nazev předmětu, kterou chceme odebrat
      */
     public void odeberPredmet(String nazev) {
-        Predmet predmet= predmety.get(nazev);
         predmety.remove(nazev);
     }
 
