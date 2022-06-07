@@ -2290,3 +2290,20 @@ postavy: Vrátný, Policista
 predat Pivo Vrátný
 Vrátný: Díky, snad ti to pomůže.
 
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+predat mluv koupit Zneskodni nápověda inventar jdi seber konec 
+
+mluv Vrátný
+Vrátný: Dobrý den, co by jste potřeboval
+potřeoval bych kleště na zneškodnění bomby, nemáte náhodou nějaký?
+Ano, nějáký tu mám, ale nebude to zadarmo
+Co by jste tedy za ně chtěl
+Dojdi mi do kumbálo pro jedno pivko
+Dobrá, za chvilku tu jsem
+
+jdi xhodba
+Tam se odsud jít nedá!
+
