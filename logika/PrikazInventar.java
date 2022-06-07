@@ -9,7 +9,7 @@ package logika;
 
 public class PrikazInventar extends Prikaz {
         public PrikazInventar(HerniPlan plan) {
-            super("invetar", plan);
+            super("inventar", plan);
         }
 
         /**

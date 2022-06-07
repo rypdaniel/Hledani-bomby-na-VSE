@@ -1,5 +1,11 @@
 package logika;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.StandardOpenOption;
+import java.time.LocalDate;
+
 /**
  *  Třída Hra - třída představující logiku adventury.
  * 
@@ -16,6 +22,7 @@ public class Hra implements IHra {
     private final SeznamPrikazu platnePrikazy;    // obsahuje seznam přípustných příkazů
     private final HerniPlan herniPlan;
     private boolean konecHry = false;
+    private File soubor;
 
     /**
      *  Vytváří hru a inicializuje místnosti (prostřednictvím třídy HerniPlan) a seznam platných příkazů.
@@ -32,6 +39,14 @@ public class Hra implements IHra {
         platnePrikazy.vlozPrikaz(new PrikazZneskodni(herniPlan));
         platnePrikazy.vlozPrikaz(new PrikazSebrat(herniPlan));
         platnePrikazy.vlozPrikaz(new PrikazKonec(this));
+        try {  // vytváří soubor (txt ve složce "adventura")
+            soubor=new File("Hra "+ LocalDate.now() + ".txt");
+            if (!soubor.exists()) {
+                soubor.createNewFile();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
@@ -72,7 +87,9 @@ public class Hra implements IHra {
         String [] slova = radek.split("[ \t]+");
         String slovoPrikazu = slova[0];
         String []parametry = new String[slova.length-1];
-         System.arraycopy(slova, 1, parametry, 0, parametry.length);
+        for(int i=0 ;i<parametry.length;i++){
+           	parametry[i]= slova[i+1];
+        }
         String textKVypsani;
         if (platnePrikazy.jePlatnyPrikaz(slovoPrikazu)) {
             IPrikaz prikaz = platnePrikazy.vratPrikaz(slovoPrikazu);
@@ -81,11 +98,17 @@ public class Hra implements IHra {
         else {
             textKVypsani="Nevím co tím myslíš? Tento příkaz neznám.";
         }
+         String doSouboru = radek + "\n" + textKVypsani + "\n\n"; // vytváří odřádkování v souboru
+        try {
+             Files.write(soubor.toPath(), doSouboru.getBytes(), StandardOpenOption.APPEND); // vypíše text do souboru
+         } catch (IOException e) {
+             e.printStackTrace();
+         }
         return textKVypsani;
-    }
-    
-    
-     /**
+     }
+
+
+    /**
      *  Nastaví, že je konec hry, metodu využívá třída PrikazKonec,
      *  mohou ji použít i další implementace rozhraní Prikaz.
      *
@@ -103,6 +126,8 @@ public class Hra implements IHra {
      public HerniPlan getHerniPlan(){
         return herniPlan;
      }
-    
+
+
+
 }
 

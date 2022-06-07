@@ -61,9 +61,12 @@ public class TestHra {
         hra.setKonecHry();
         assertTrue(hra.konecHry());
     }
-
-
-
+    @Test
+    //6.Test metody aktuailniProstor
+    public void testAktualniProstor(){
+        Prostor testovaciProstor = new Prostor("ucebna","ucebna");
+        hra.getHerniPlan().setAktualniProstor(testovaciProstor);
+        assertEquals(testovaciProstor, hra.getHerniPlan().getAktualniProstor());
+    }
 }
-
 

@@ -8,8 +8,8 @@ package logika;
  *    @version pro školní rok 2021/22
  */
 public class Prikaz implements IPrikaz {
-    private String NAME;
-    private HerniPlan plan;
+    private final String NAME;
+    private final HerniPlan plan;
 
     public Prikaz(String name, HerniPlan plan){
         this.NAME = name;
@@ -19,7 +19,7 @@ public class Prikaz implements IPrikaz {
     /**
      *
      * @param parametry počet parametrů závisí na konkrétním příkazu.
-     * @return
+     * @return provede příkaz
      */
     @Override
     public String provedPrikaz(String... parametry) {

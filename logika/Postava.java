@@ -9,12 +9,11 @@ import java.util.Map;
  *    @version pro školní rok 2021/22
  */
 
-@SuppressWarnings("ALL")
 public class Postava implements Ipostava{
     private final String jmeno;
     private final String zobrazJmeno;
     private Predmet coChce;
-    private Predmet coVlastní;
+    private Predmet coVlastni;
     private final String mluvPred;
     private final String mluvPo;
     private final String chceMluvit;
@@ -22,10 +21,10 @@ public class Postava implements Ipostava{
     private Boolean jizMluvil = false;
     private Boolean probehlaVymena = false;
 
-    public Postava(String jmeno, String zobrazJmeno, Predmet coChce, Predmet coVlastní, String mluvPred, String mluvPo, String chceMluvit, String nechceMluvit){
+    public Postava(String jmeno, String zobrazJmeno, Predmet coChce, Predmet coVlastni, String mluvPred, String mluvPo, String chceMluvit, String nechceMluvit){
         this.jmeno = jmeno;
         this.coChce = coChce;
-        this.coVlastní = coVlastní;
+        this.coVlastni = coVlastni;
         this.mluvPred = mluvPred;
         this.mluvPo = mluvPo;
         this.chceMluvit = chceMluvit;
@@ -70,20 +69,11 @@ public class Postava implements Ipostava{
         probehlaVymena = true;
         Map<String, Predmet> predmety = new HashMap<>();
         predmety.put("odeber", predmet);
-        predmety.put("pridej", coVlastní);
+        predmety.put("pridej", coVlastni);
         coChce = null;
-        coVlastní = predmet;
+        coVlastni = predmet;
         return predmety;
     }
-
-    /**
-     * vrati predmet, ktery postava vlastní
-     * @return predmet, ktery postava vlstní
-     */
-    public Predmet getCoVlastní() {
-        return coVlastní;
-    }
-
 
     /**
      * vrati, co postava rekne pokud predmet chce

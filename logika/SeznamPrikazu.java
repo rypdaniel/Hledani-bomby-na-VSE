@@ -72,6 +72,5 @@ class SeznamPrikazu {
         }
         return seznam.toString();
     }
-    
 }
 

@@ -1,5 +1,7 @@
 package logika;
 
+import static java.lang.System.exit;
+
 /**
  * Class PrikazZneskodni - dědí z třídy příkaz
  *
@@ -23,8 +25,8 @@ public class PrikazZneskodni extends Prikaz{
         }
         //Ukončí hru
         else if (parametry.length == 1 && this.getHerniPlan().getAktualniProstor().obsahujePredmet("Bomba") && this.getHerniPlan().getInventar().obsahujePredmet("Kleště")) {
-            System.out.println("Bomba byla zneškodněna. Děkuji za hru <3");
-            System.exit(0);
+            System.out.println("Bomba byla zneškodněna." + "Děkuji za hru <3") ;
+            exit(0);
         }
         else if(parametry.length == 1 && this.getHerniPlan().getAktualniProstor().obsahujePredmet("Bomba")){
             return "Potřebujete Kleště";

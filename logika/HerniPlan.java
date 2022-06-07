@@ -60,13 +60,13 @@ public class HerniPlan {
         /*
           Definuje věci, které se ve hře vyskytují
          */
-        Predmet potraviny = new Predmet("Potraviny", "Potraviny", true,false);
-        Predmet kleste = new Predmet("Kleště", "Kleste", true,false);
-        Predmet pivo = new Predmet("Pivo", "Pivo", true,false);
-        Predmet BOMBA = new Predmet("Bomba","Bomba",false,true);
-        Predmet Polevka = new Predmet("Polévka","Polévka",false, false);
-        Predmet Voda = new Predmet("Voda","Voda",false, false);
-        Predmet Mapa = new Predmet("Mapa","Mapa", true,false);
+        Predmet potraviny = new Predmet("Potraviny", "Potraviny", true, Predmet.Status.NelzeZneskodnit);
+        Predmet kleste = new Predmet("Kleště", "Kleste", true, Predmet.Status.NelzeZneskodnit);
+        Predmet pivo = new Predmet("Pivo", "Pivo", true, Predmet.Status.NelzeZneskodnit);
+        Predmet BOMBA = new Predmet("Bomba","Bomba",false, Predmet.Status.LzeZneskodnit);
+        Predmet Polevka = new Predmet("Polévka","Polévka",false, Predmet.Status.NelzeZneskodnit);
+        Predmet Voda = new Predmet("Voda","Voda",false, Predmet.Status.NelzeZneskodnit);
+        Predmet Mapa = new Predmet("Mapa","Mapa", true, Predmet.Status.NelzeZneskodnit);
         Polevka.setCena(50);
         Voda.setCena(5);
         menza.vlozPredmet(Polevka);

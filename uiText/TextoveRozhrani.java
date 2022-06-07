@@ -17,7 +17,7 @@ import logika.IHra;
  */
 
 public class TextoveRozhrani {
-    private IHra hra;
+    private final IHra hra;
 
     /**
      *  Vytváří hru.

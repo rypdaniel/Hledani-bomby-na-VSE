@@ -34,6 +34,7 @@ public class Prostor {
         this.nazev = nazev;
         this.popis = popis;
         vychody = new HashSet<>();
+
     }
 
     /**
@@ -257,4 +258,5 @@ public class Prostor {
     public void vlozPostavu(Postava postava) {
         postavy.put(postava.getJmeno(), postava);
     }
+
 }

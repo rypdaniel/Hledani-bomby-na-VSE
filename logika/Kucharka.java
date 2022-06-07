@@ -7,10 +7,10 @@ package logika;
  * @version 2021/22
  */
 
-@SuppressWarnings("ALL")
+
 public class Kucharka extends Postava{
 
-    public Kucharka(String jmeno, String zobrazJmeno, Predmet coChce, Predmet coVlastní, String mluvPred, String mluvPo, String chceMluvit, String nechceMluvit) {
-        super(jmeno, zobrazJmeno, coChce, coVlastní, mluvPred, mluvPo, chceMluvit, nechceMluvit);
+    public Kucharka(String jmeno, String zobrazJmeno, Predmet coChce, Predmet coVlastni, String mluvPred, String mluvPo, String chceMluvit, String nechceMluvit) {
+        super(jmeno, zobrazJmeno, coChce, coVlastni, mluvPred, mluvPo, chceMluvit, nechceMluvit);
     }
 }

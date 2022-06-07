@@ -9,14 +9,20 @@ public class Predmet {
     private final String nazev;
     private final String zobrazeni;
     private final Boolean lzeVzit;
-    private final Boolean lzeZneskodnit;
+    private final Status STATUS;
     private int cena = 0;
 
-    public Predmet(String nazev, String zobrazeni, Boolean lzeVzit, Boolean lzeZneskodnit) {
+    public enum Status{
+        LzeZneskodnit,
+        NelzeZneskodnit
+
+    }
+
+    public Predmet(String nazev, String zobrazeni, Boolean lzeVzit, Status status) {
         this.nazev = nazev;
         this.lzeVzit = lzeVzit;
         this.zobrazeni = zobrazeni;
-        this.lzeZneskodnit = lzeZneskodnit;
+        this.STATUS = status;
     }
 
     /**
@@ -40,9 +46,11 @@ public class Predmet {
      * @return true pokud jde vzit, false pokud nelze
      */
     public Boolean getLzeVzit() {
+        if (getStatus() == Status.NelzeZneskodnit){
         return this.lzeVzit;
+         }
+    return false;
     }
-
     /**
      * nastavi cenu veci
      * @param cena - cena, kterou vec bude mit
@@ -63,10 +71,10 @@ public class Predmet {
 
     /**
      * vrati, zda lze predmet zneskodnit
-     * @return true pokud jde zneskodnit, false pokud nelze
+     * @return vrací jestli lze, nebo nelze zneškodnit
      */
-    public Boolean getLzeZneskodnit() {
-        return lzeZneskodnit;
+    public Status getStatus(){
+        return STATUS;
     }
 }
 

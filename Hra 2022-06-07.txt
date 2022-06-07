@@ -1,0 +1,1578 @@
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+vadny prikaz
+Nevím co tím myslíš? Tento příkaz neznám.
+
+mluv Vrátný
+Vrátný: Dobrý den, co by jste potřeboval
+potřeoval bych kleště na zneškodnění bomby, nemáte náhodou nějaký?
+Ano, nějáký tu mám, ale nebude to zadarmo
+Co by jste tedy za ně chtěl
+Dojdi mi do kumbálo pro jedno pivko
+Dobrá, za chvilku tu jsem
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi kumbál
+Jsi v mistnosti/prostoru místmost kam se chodí poflakovat školník.
+východy: průchod
+předměty k sebrání: Pivo, Potraviny
+postavy: zde nejsou žádné postavy
+
+seber Pivo
+Vložil jsi: Pivo do batohu.
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+jdi vstup
+Jsi v mistnosti/prostoru Místo před vstupem do budovy.
+východy: chodba
+předměty k sebrání: zde není nic k sebrání
+postavy: Vrátný, Policista
+
+predat Pivo Vrátný
+Vrátný: Díky, snad ti to pomůže.
+
+vadny prikaz
+Nevím co tím myslíš? Tento příkaz neznám.
+
+mluv Vrátný
+Vrátný: Dobrý den, co by jste potřeboval
+potřeoval bych kleště na zneškodnění bomby, nemáte náhodou nějaký?
+Ano, nějáký tu mám, ale nebude to zadarmo
+Co by jste tedy za ně chtěl
+Dojdi mi do kumbálo pro jedno pivko
+Dobrá, za chvilku tu jsem
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi kumbál
+Jsi v mistnosti/prostoru místmost kam se chodí poflakovat školník.
+východy: průchod
+předměty k sebrání: Pivo, Potraviny
+postavy: zde nejsou žádné postavy
+
+seber Pivo
+Vložil jsi: Pivo do batohu.
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+jdi vstup
+Jsi v mistnosti/prostoru Místo před vstupem do budovy.
+východy: chodba
+předměty k sebrání: zde není nic k sebrání
+postavy: Vrátný, Policista
+
+predat Pivo Vrátný
+Vrátný: Díky, snad ti to pomůže.
+
+vadny prikaz
+Nevím co tím myslíš? Tento příkaz neznám.
+
+mluv Vrátný
+Vrátný: Dobrý den, co by jste potřeboval
+potřeoval bych kleště na zneškodnění bomby, nemáte náhodou nějaký?
+Ano, nějáký tu mám, ale nebude to zadarmo
+Co by jste tedy za ně chtěl
+Dojdi mi do kumbálo pro jedno pivko
+Dobrá, za chvilku tu jsem
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi kumbál
+Jsi v mistnosti/prostoru místmost kam se chodí poflakovat školník.
+východy: průchod
+předměty k sebrání: Pivo, Potraviny
+postavy: zde nejsou žádné postavy
+
+seber Pivo
+Vložil jsi: Pivo do batohu.
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+jdi vstup
+Jsi v mistnosti/prostoru Místo před vstupem do budovy.
+východy: chodba
+předměty k sebrání: zde není nic k sebrání
+postavy: Vrátný, Policista
+
+predat Pivo Vrátný
+Vrátný: Díky, snad ti to pomůže.
+
+vadny prikaz
+Nevím co tím myslíš? Tento příkaz neznám.
+
+mluv Vrátný
+Vrátný: Dobrý den, co by jste potřeboval
+potřeoval bych kleště na zneškodnění bomby, nemáte náhodou nějaký?
+Ano, nějáký tu mám, ale nebude to zadarmo
+Co by jste tedy za ně chtěl
+Dojdi mi do kumbálo pro jedno pivko
+Dobrá, za chvilku tu jsem
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi kumbál
+Jsi v mistnosti/prostoru místmost kam se chodí poflakovat školník.
+východy: průchod
+předměty k sebrání: Pivo, Potraviny
+postavy: zde nejsou žádné postavy
+
+seber Pivo
+Vložil jsi: Pivo do batohu.
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+jdi vstup
+Jsi v mistnosti/prostoru Místo před vstupem do budovy.
+východy: chodba
+předměty k sebrání: zde není nic k sebrání
+postavy: Vrátný, Policista
+
+predat Pivo Vrátný
+Vrátný: Díky, snad ti to pomůže.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+Konec
+Nevím co tím myslíš? Tento příkaz neznám.
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+Zneskodni Bomaba
+Daný předmět nejde zneškodnit
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+Zneskodni Bomba
+Daný předmět nejde zneškodnit
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařak
+Tahle osoba tu není
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+Zneskodni Bomba1
+Daný předmět nejde zneškodnit
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+Zneskodni Bomba
+Daný předmět nejde zneškodnit
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+Zneskodni Bomba
+Daný předmět nejde zneškodnit
+
+Zneskodni Bomba
+Daný předmět nejde zneškodnit
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+To zde není.
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+To zde není.
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+To zde není.
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+To zde není.
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+seber Kleště
+To zde není.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+Zneskodni Bomba
+Potřebujete Kleště
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+seber Kleště
+Vložil jsi: Kleště do batohu.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+invetar predat mluv koupit Zneskodni nápověda jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+predat mluv koupit Zneskodni nápověda inventar jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+inventar
+Obsah batohu: 
+nic nevlastníš
+V peněžence máš: 55 Kč
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+predat mluv koupit Zneskodni nápověda inventar jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+inventar
+Obsah batohu: 
+nic nevlastníš
+V peněžence máš: 55 Kč
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+predat mluv koupit Zneskodni nápověda inventar jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+inventar
+Obsah batohu: 
+nic nevlastníš
+V peněžence máš: 55 Kč
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+predat mluv koupit Zneskodni nápověda inventar jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+inventar
+Obsah batohu: 
+nic nevlastníš
+V peněžence máš: 55 Kč
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+predat mluv koupit Zneskodni nápověda inventar jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+inventar
+Obsah batohu: 
+nic nevlastníš
+V peněžence máš: 55 Kč
+

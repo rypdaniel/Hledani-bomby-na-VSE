@@ -12,6 +12,7 @@ public class Inventar {
     private final Map<String, Predmet> predmety = new HashMap<>();
     private int penize = 55;
 
+
     /**
      * zkontroluje, jestli inventar neni plny a vlozi vec do inventare
      * @param  predmet kterou vkladame do inventare
@@ -78,7 +79,7 @@ public class Inventar {
      * @return vraci true, pokud plny je a false pokud neni
      */
     public Boolean jePlny() {
-        return predmety.size() > 6;
+        return predmety.size() > 5;
     }
 }
 
