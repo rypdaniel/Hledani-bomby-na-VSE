@@ -5,7 +5,7 @@ package logika;
  * Class Prikaz - zaklad pro ostatni prikazy
  *
  * @author Daniel Rypl
- *    @version pro školní rok 2021/22
+ * @version pro školní rok 2021/22
  */
 public class Prikaz implements IPrikaz {
     private final String NAME;

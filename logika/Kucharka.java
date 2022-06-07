@@ -1,12 +1,11 @@
 package logika;
 
-/*
+/**
   Class Kucharka - popisuje chovani kuchařky
 
   @author Daniel Rypl
  * @version 2021/22
  */
-
 
 public class Kucharka extends Postava{
 

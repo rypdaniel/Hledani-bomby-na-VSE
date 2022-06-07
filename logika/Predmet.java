@@ -5,19 +5,29 @@ package logika;
  * @author Daniel Rypl
  *    @version pro školní rok 2021/22
  */
-public class Predmet {
+public class Predmet {  //proměnné se keterými pracuji ve třídě Predmet
     private final String nazev;
     private final String zobrazeni;
     private final Boolean lzeVzit;
     private final Status STATUS;
     private int cena = 0;
 
+
+    //Určuje jestli lze/nelze zneškodnit předmět
     public enum Status{
         LzeZneskodnit,
         NelzeZneskodnit
 
     }
 
+    /**
+     * Konstruktor třídy
+     *
+     * @param nazev         název předmětu
+     * @param lzeVzit     boolean prokud lze předmět sebrat
+     * @param status Urřuje jestli lze předmět zenškodnit
+     * @param zobrazeni název
+     */
     public Predmet(String nazev, String zobrazeni, Boolean lzeVzit, Status status) {
         this.nazev = nazev;
         this.lzeVzit = lzeVzit;

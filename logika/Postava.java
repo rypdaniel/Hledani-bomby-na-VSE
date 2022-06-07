@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Class Postava - popisuje obecne chovani vsech postav
  * @author Daniel Rypl
- *    @version pro školní rok 2021/22
+ * @version pro školní rok 2021/22
  */
 
 public class Postava implements Ipostava{
