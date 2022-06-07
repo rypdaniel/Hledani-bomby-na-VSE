@@ -18,17 +18,14 @@ import java.util.Map;
 class SeznamPrikazu {
     // mapa pro uložení přípustných příkazů
     private  final Map<String,IPrikaz> mapaSPrikazy;
-    
-   
-    
+
     /**
      * Konstruktor
      */
     public SeznamPrikazu() {
         mapaSPrikazy = new HashMap<>();
     }
-    
-    
+
     /**
      * Vkládá nový příkaz.
      *

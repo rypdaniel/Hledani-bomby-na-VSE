@@ -14,8 +14,8 @@ public class Prikaz implements IPrikaz {
     public Prikaz(String name, HerniPlan plan){
         this.NAME = name;
         this.plan = plan;
-
     }
+
     /**
      *
      * @param parametry počet parametrů závisí na konkrétním příkazu.
@@ -39,7 +39,6 @@ public class Prikaz implements IPrikaz {
      * vrati herni plan
      * @return herni plan;
      */
-
     public HerniPlan getHerniPlan(){
         return this.plan;
     }

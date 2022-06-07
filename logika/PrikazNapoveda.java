@@ -8,12 +8,11 @@ package logika;
  *@version    pro školní rok 2016/2017
  *  
  */
+
 class PrikazNapoveda implements IPrikaz {
-    
     private static final String NAZEV = "nápověda";
     private final SeznamPrikazu platnePrikazy;
-    
-    
+
      /**
     *  Konstruktor třídy
     *  
@@ -48,5 +47,4 @@ class PrikazNapoveda implements IPrikaz {
       public String getNazev() {
         return NAZEV;
      }
-
 }

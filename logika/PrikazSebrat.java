@@ -18,7 +18,6 @@ public class PrikazSebrat extends Prikaz{
      */
     @Override
     public String provedPrikaz(String... parametry) {
-
         if (parametry.length == 0) {
             // pokud chybí druhé slovo, tak ....
             return "Co mam sebrat?";

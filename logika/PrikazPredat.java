@@ -21,7 +21,6 @@ public class PrikazPredat extends Prikaz{
      * @param parametry počet parametrů závisí na konkrétním příkazu.
      */
     public String provedPrikaz(String... parametry) {
-
         Inventar inventar = this.getHerniPlan().getInventar();
         Prostor aktualniProstor = this.getHerniPlan().getAktualniProstor();
         if (parametry.length == 0) {

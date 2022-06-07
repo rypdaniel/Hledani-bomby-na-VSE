@@ -2,14 +2,19 @@ package logika;
 
 import java.util.Objects;
 
-public class PrikazKoupit extends Prikaz{
+/**
+ * Class PrikazKoupit - dedi z tridy Prikaz
+ * Dovoluje hráči zakoupit předměty, které nelze sebrat
+ * @author Daniel Rypl
+ * @version 2021/22
+ */
 
+public class PrikazKoupit extends Prikaz{
     public PrikazKoupit(HerniPlan plan){
         super("koupit", plan);
     }
     @Override
     public String provedPrikaz(String... parametry) {
-
         if(Objects.equals(this.getHerniPlan().getAktualniProstor().getNazev(), "menza")) {
             //muzu koupit
             if (parametry.length == 0) {
@@ -23,7 +28,6 @@ public class PrikazKoupit extends Prikaz{
                     return "Koupil jsi "+ parametry[0] + ".";
                 }
                 return "Nemáš dostatek peněz";
-
             }
             else {
                 return "Tohle tu nemáme";

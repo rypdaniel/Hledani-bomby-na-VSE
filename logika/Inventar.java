@@ -12,7 +12,6 @@ public class Inventar {
     private final Map<String, Predmet> predmety = new HashMap<>();
     private int penize = 55;
 
-
     /**
      * zkontroluje, jestli inventar neni plny a vlozi vec do inventare
      * @param  predmet kterou vkladame do inventare
@@ -57,7 +56,6 @@ public class Inventar {
         }
         return false;
     }
-
 
     /**
      * zjisti, jestli se v inventari nachazi daný předmět

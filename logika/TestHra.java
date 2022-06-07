@@ -22,18 +22,20 @@ public class TestHra {
                 "To však nebude jednoduché, protože budeš muset nalézt kleště. \n" +
                 "\n" +
                 hra.getHerniPlan().getAktualniProstor().dlouhyPopis(),hra.vratUvitani());
-
     }
+
     @Test
     //2. Test závěrčné zprávy.
     public void vratEpilog() {
         assertEquals("KONEC HRY", hra.vratEpilog());
     }
+
     @Test
     //3. Test vadného příkazu.
     public void zpracujVadnyPrikaz(){
         assertEquals("Nevím co tím myslíš? Tento příkaz neznám.",hra.zpracujPrikaz("vadny prikaz"));
     }
+
     @Test
     //4. Test výhra
     public void testVyhra(){
@@ -48,6 +50,7 @@ public class TestHra {
         hra.zpracujPrikaz("predat Pivo Vrátný");
         assertNotEquals(null, hra.konecHry());
     }
+
     @Test
     //5.Test, zda hra běží či ne
     public void testBezi(){
@@ -55,6 +58,7 @@ public class TestHra {
         hra.setKonecHry();
         assertTrue(hra.konecHry());
     }
+
     @Test
     //6.Test metody aktuailniProstor
     public void testAktualniProstor(){

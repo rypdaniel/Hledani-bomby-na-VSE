@@ -11,8 +11,7 @@ package logika;
  *@author     Michael Kolling, Lubos Pavlicek, Jarmila Pavlickova
  *@version    pro školní rok 2016/2017
  */
-public interface IHra
-{
+public interface IHra {
     //== VEŘEJNÉ KONSTANTY =====================================================
     //== DEKLAROVANÉ METODY ====================================================
     /**
@@ -45,7 +44,6 @@ public interface IHra
      *@return          vrací se řetězec, který se má vypsat na obrazovku
      */
       String zpracujPrikaz(String radek);
-   
     
      /**
      *  Metoda vrátí odkaz na herní plán, je využita hlavně v testech,

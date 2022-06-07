@@ -56,5 +56,4 @@ record PrikazJdi(HerniPlan plan) implements IPrikaz {
     public String getNazev() {
         return NAZEV;
     }
-
 }

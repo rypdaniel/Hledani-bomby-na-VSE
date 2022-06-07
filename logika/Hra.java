@@ -107,7 +107,6 @@ public class Hra implements IHra {
         return textKVypsani;
      }
 
-
     /**
      *  Nastaví, že je konec hry, metodu využívá třída PrikazKonec,
      *  mohou ji použít i další implementace rozhraní Prikaz.
@@ -126,8 +125,5 @@ public class Hra implements IHra {
      public HerniPlan getHerniPlan(){
         return herniPlan;
      }
-
-
-
 }
 

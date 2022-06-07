@@ -12,12 +12,10 @@ public class Predmet {  //proměnné se keterými pracuji ve třídě Predmet
     private final Status STATUS;
     private int cena = 0;
 
-
     //Určuje jestli lze/nelze zneškodnit předmět
     public enum Status{
         LzeZneskodnit,
         NelzeZneskodnit
-
     }
 
     /**
@@ -76,8 +74,6 @@ public class Predmet {  //proměnné se keterými pracuji ve třídě Predmet
     public int getCena() {
         return this.cena;
     }
-
-
 
     /**
      * vrati, zda lze predmet zneskodnit

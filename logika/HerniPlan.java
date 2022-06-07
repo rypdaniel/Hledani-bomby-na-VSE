@@ -45,7 +45,6 @@ public class HerniPlan {
         prostory.put(kumbal.getNazev(), kumbal);
         prostory.put(menza.getNazev(), menza);
 
-
         // přiřazují se průchody mezi prostory (sousedící prostory)
         vstup.setVychod(chodba);
         chodba.setVychod(vstup);
@@ -55,7 +54,6 @@ public class HerniPlan {
         pruchod.setVychod(menza);
         menza.setVychod(pruchod);
         kumbal.setVychod(pruchod);
-
 
         /*
           Definuje věci, které se ve hře vyskytují
@@ -75,9 +73,6 @@ public class HerniPlan {
         kumbal.vlozPredmet(potraviny);
         pruchod.vlozPredmet(BOMBA);
         chodba.vlozPredmet(Mapa);
-
-
-
 
         /*
           Interakce s vrátným
@@ -113,7 +108,6 @@ public class HerniPlan {
         pruchod.vlozPostavu(skolnik);
         vstup.vlozPostavu(policista);
 
-                
         aktualniProstor = vstup;  // hra začíná u vstupu do školy
     }
 
@@ -135,7 +129,6 @@ public class HerniPlan {
     public void setAktualniProstor(Prostor prostor) {
        aktualniProstor = prostor;
     }
-
 
     /**
      * vrati inventar

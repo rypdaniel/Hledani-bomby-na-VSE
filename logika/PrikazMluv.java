@@ -3,12 +3,10 @@ package logika;
 /**
  * Class PrikazMluv - dedi ze tridy Prikaz
  * @author Daniel Rypl
- *    @version pro školní rok 2021/22
+ * @version pro školní rok 2021/22
  */
 
 public class PrikazMluv extends Prikaz{
-
-
     public PrikazMluv(HerniPlan plan) {
         super("mluv", plan );
     }
@@ -27,7 +25,6 @@ public class PrikazMluv extends Prikaz{
         else if(parametry.length == 1 && this.getHerniPlan().getAktualniProstor().obsahujePostavu(parametry[0])) {
             // pokud je druhe slovo takové, které lze vložit do invetáře
             return this.getHerniPlan().getAktualniProstor().vratPostavu(parametry[0]).mluv();
-
         }
         return "Tahle osoba tu není";
     }

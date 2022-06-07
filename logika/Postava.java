@@ -83,7 +83,6 @@ public class Postava implements Ipostava{
         return chceMluvit;
     }
 
-
     /**
      * vrati jmeno postavy
      * @return text jmena postavy
@@ -108,7 +107,6 @@ public class Postava implements Ipostava{
         return jizMluvil;
     }
 
-
     /**
      * vrati screenJmeno
      * @return text screenJmeno
@@ -117,6 +115,11 @@ public class Postava implements Ipostava{
         return zobrazJmeno;
     }
 
+    /**
+     * vrátí String s velkým prvnim pismenem
+     *
+     * @param text text, který chceme zpracovat
+     */
     private String velkyPismeno(String text) {
         return text.substring(0,1).toUpperCase() + text.substring(1);
     }

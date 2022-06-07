@@ -15,7 +15,6 @@ import java.util.*;
  * @version pro školní rok 2016/2017
  */
 public class Prostor {
-
     private final String nazev;
     private final String popis;
     private final Set<Prostor> vychody;   // obsahuje sousední místnosti
@@ -34,7 +33,6 @@ public class Prostor {
         this.nazev = nazev;
         this.popis = popis;
         vychody = new HashSet<>();
-
     }
 
     /**
@@ -94,7 +92,6 @@ public class Prostor {
         vysledek = 37 * vysledek + hashNazvu;
         return vysledek;
     }
-      
 
     /**
      * Vrací název prostoru (byl zadán při vytváření prostoru jako parametr
@@ -206,6 +203,7 @@ public class Prostor {
     public boolean obsahujePredmet(String nazev) {
         return predmety.containsKey(nazev);
     }
+
     /**
      * vrati předmět z prostoru
      * @param nazev nazev předmětu, který chceme vratit
@@ -214,6 +212,7 @@ public class Prostor {
     public Predmet vratPredmet(String nazev) {
         return predmety.get(nazev);
     }
+
     /**
      * odebere předmět z prostoru
      * @param nazev nazev předmětu, který chceme odebrat
@@ -222,6 +221,7 @@ public class Prostor {
     public Predmet odeberPredmet(String nazev) {
         return predmety.remove(nazev);
     }
+
 
     /**
      * zjisti, jestli se v prostoru nachazi dana postava
@@ -258,5 +258,4 @@ public class Prostor {
     public void vlozPostavu(Postava postava) {
         postavy.put(postava.getJmeno(), postava);
     }
-
 }

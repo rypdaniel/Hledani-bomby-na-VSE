@@ -10,9 +10,7 @@ package logika;
  */
 
 class PrikazKonec implements IPrikaz {
-
     private static final String NAZEV = "konec";
-
     private final Hra hra;
 
     /**
