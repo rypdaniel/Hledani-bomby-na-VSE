@@ -8,6 +8,7 @@ import static org.junit.Assert.*;
 
 public class TestInventar{
         private Inventar inventar;
+        private Hra hra;
     @Before
         public void setUp() {
             inventar = new Inventar();
@@ -15,6 +16,7 @@ public class TestInventar{
             inventar.vlozPredmet(new Predmet("test2","test2",false, Predmet.Status.NelzeZneskodnit));
             inventar.vlozPredmet(new Predmet("test3","test3",true,Predmet.Status.LzeZneskodnit));
             inventar.odeberPredmet("test2");
+            hra = new Hra();
     }
 
     //7.Test, zda byl předmět odstraněn
@@ -39,17 +41,25 @@ public class TestInventar{
     //16.Test metoty lzeSebrat
     @Test
     public void testNelzeSebrat(){
-        Predmet predmet2 = new Predmet("test2","test2",false, Predmet.Status.NelzeZneskodnit);
-        assertFalse(predmet2.getLzeVzit());
+        Predmet predmet20 = new Predmet("test2","test2",false, Predmet.Status.NelzeZneskodnit);
+        assertFalse(predmet20.getLzeVzit());
 
     }
     //17.Test metoty lzeSebrat
     @Test
     public void testLzeSebrat(){
-        Predmet predmet = new Predmet("test2","test2",true, Predmet.Status.NelzeZneskodnit);
-        assertTrue(predmet.getLzeVzit());
+        Predmet predmet10 = new Predmet("test2","test2",true, Predmet.Status.NelzeZneskodnit);
+        assertTrue(predmet10.getLzeVzit());
     }
 
+    //18. Test jestli je inventář prázdný
+    @Test
+    public void testJePrazdny(){
+        assertEquals("""
+                Obsah batohu:\s
+                nic nevlastníš
+                V peněžence máš: 55 Kč""", hra.zpracujPrikaz("inventar"));
+    }
 
 
 }

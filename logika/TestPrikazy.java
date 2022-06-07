@@ -70,6 +70,34 @@ public class TestPrikazy{
                 nic nevlastníš
                 V peněžence máš: 55 Kč""",hra.zpracujPrikaz("inventar"));
     }
+    //19.Test příkazu predat
+    @Test
+    public void testPredat(){
+        hra.zpracujPrikaz("mluv Vrátný");
+        hra.zpracujPrikaz("jdi chodba");
+        hra.zpracujPrikaz("jdi průchod");
+        hra.zpracujPrikaz("jdi kumbál");
+        hra.zpracujPrikaz("seber Pivo");
+        hra.zpracujPrikaz("jdi průchod");
+        hra.zpracujPrikaz("jdi chodba");
+        hra.zpracujPrikaz("jdi vstup");
+        assertEquals("Vrátný: Díky, snad ti to pomůže.",hra.zpracujPrikaz("predat Pivo Vrátný"));
+    }
+
+    //20.Test příkazu koupit
+    @Test
+    public void testKoupit(){
+            hra.zpracujPrikaz("jdi chodba");
+        hra.zpracujPrikaz("jdi průchod");
+        hra.zpracujPrikaz("jdi menza");
+        hra.zpracujPrikaz("mluv Kuchařka");
+        assertEquals("Koupil jsi Voda.", hra.zpracujPrikaz("koupit Voda"));
+
+
+
+    }
+
+
 }
 
 

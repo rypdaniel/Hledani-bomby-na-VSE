@@ -16,11 +16,13 @@ public class Inventar {
     /**
      * zkontroluje, jestli inventar neni plny a vlozi vec do inventare
      * @param  predmet kterou vkladame do inventare
+     * @return
      */
-    public void vlozPredmet(Predmet predmet) {
+    public Object vlozPredmet(Predmet predmet) {
         if(!jePlny()) {
             predmety.put(predmet.getNazev(), predmet); //vloží klíč a hodnotu do mapy
         }
+        return null;
     }
 
     /**
