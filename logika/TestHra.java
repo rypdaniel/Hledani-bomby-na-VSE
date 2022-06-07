@@ -1,6 +1,5 @@
 package logika;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,11 +12,6 @@ public class TestHra {
     public void setUp() {
         hra = new Hra();
     }
-
-    @After
-    public void tearDown() {
-    }
-
 
     @Test
     //1. Test úvodní zprávy pro hráče.
@@ -43,7 +37,6 @@ public class TestHra {
     @Test
     //4. Test výhra
     public void testVyhra(){
-        hra.zpracujPrikaz("mluv Vrátný");
         hra.zpracujPrikaz("jdi chodba");
         hra.zpracujPrikaz("jdi průchod");
         hra.zpracujPrikaz("jdi kumbál");
@@ -51,6 +44,7 @@ public class TestHra {
         hra.zpracujPrikaz("jdi průchod");
         hra.zpracujPrikaz("jdi chodba");
         hra.zpracujPrikaz("jdi vstup");
+        hra.zpracujPrikaz("mluv Vrátný");
         hra.zpracujPrikaz("predat Pivo Vrátný");
         assertNotEquals(null, hra.konecHry());
     }

@@ -1,6 +1,5 @@
 package logika;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,10 +13,6 @@ public class TestPrikazy{
         public void setUp() {
             hra = new Hra();
 
-        }
-
-        @After
-        public void tearDown() {
         }
 
         //10.Test Vypsání nápovědy

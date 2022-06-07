@@ -16,7 +16,7 @@ public class Inventar {
     /**
      * zkontroluje, jestli inventar neni plny a vlozi vec do inventare
      * @param  predmet kterou vkladame do inventare
-     * @return
+     * @return vlozi vec do inventare
      */
     public Object vlozPredmet(Predmet predmet) {
         if(!jePlny()) {
