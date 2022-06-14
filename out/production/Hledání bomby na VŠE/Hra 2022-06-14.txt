@@ -1,0 +1,9 @@
+napoveda
+Nevím co tím myslíš? Tento příkaz neznám.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+predat mluv koupit Zneskodni nápověda inventar jdi seber konec 
+
