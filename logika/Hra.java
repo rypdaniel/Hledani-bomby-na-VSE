@@ -87,9 +87,7 @@ public class Hra implements IHra {
         String [] slova = radek.split("[ \t]+");
         String slovoPrikazu = slova[0];
         String []parametry = new String[slova.length-1];
-        for(int i=0 ;i<parametry.length;i++){
-           	parametry[i]= slova[i+1];
-        }
+         System.arraycopy(slova, 1, parametry, 0, parametry.length);
         String textKVypsani;
         if (platnePrikazy.jePlatnyPrikaz(slovoPrikazu)) {
             IPrikaz prikaz = platnePrikazy.vratPrikaz(slovoPrikazu);
