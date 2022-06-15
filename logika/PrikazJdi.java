@@ -1,5 +1,7 @@
 package logika;
 
+import java.util.Objects;
+
 /**
  * Třída PrikazJdi implementuje pro hru příkaz jdi.
  * Tato třída je součástí jednoduché textové hry.
@@ -7,15 +9,18 @@ package logika;
  * @author Jarmila Pavlickova, Luboš Pavlíček
  * @version pro školní rok 2016/2017
  */
-record PrikazJdi(HerniPlan plan) implements IPrikaz {
+final class PrikazJdi implements IPrikaz {
     private static final String NAZEV = "jdi";
+    private final HerniPlan plan;
+
 
     /**
      * Konstruktor třídy
      *
      * @param plan herní plán, ve kterém se bude ve hře "chodit"
      */
-    PrikazJdi {
+    PrikazJdi(HerniPlan plan) {
+        this.plan = plan;
     }
 
     /**
@@ -56,4 +61,28 @@ record PrikazJdi(HerniPlan plan) implements IPrikaz {
     public String getNazev() {
         return NAZEV;
     }
+
+    public HerniPlan plan() {
+        return plan;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) return true;
+        if (obj == null || obj.getClass() != this.getClass()) return false;
+        var that = (PrikazJdi) obj;
+        return Objects.equals(this.plan, that.plan);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(plan);
+    }
+
+    @Override
+    public String toString() {
+        return "PrikazJdi[" +
+                "plan=" + plan + ']';
+    }
+
 }
