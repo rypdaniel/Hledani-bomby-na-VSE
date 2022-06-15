@@ -45,14 +45,16 @@ public interface IHra {
      */
       String zpracujPrikaz(String radek);
     
-     /**
-     *  Metoda vrátí odkaz na herní plán, je využita hlavně v testech,
-     *  kde se jejím prostřednictvím získává aktualní místnost hry.
-     *  
-     *  @return     odkaz na herní plán
-     */
-     HerniPlan getHerniPlan();
-    
+// --Commented out by Inspection START (15.06.2022 13:33):
+//     /**
+//     *  Metoda vrátí odkaz na herní plán, je využita hlavně v testech,
+//     *  kde se jejím prostřednictvím získává aktualní místnost hry.
+//     *
+//     *  @return     odkaz na herní plán
+//     */
+//     HerniPlan getHerniPlan();
+// --Commented out by Inspection STOP (15.06.2022 13:33)
+
     //== ZDĚDĚNÉ METODY ========================================================
     //== INTERNÍ DATOVÉ TYPY ===================================================
 }
