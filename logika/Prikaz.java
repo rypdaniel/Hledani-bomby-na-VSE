@@ -7,7 +7,7 @@ package logika;
  * @author Daniel Rypl
  * @version pro školní rok 2021/22
  */
-public class Prikaz implements IPrikaz {
+public abstract class Prikaz implements IPrikaz {
     private final String NAME;
     private final HerniPlan plan;
 

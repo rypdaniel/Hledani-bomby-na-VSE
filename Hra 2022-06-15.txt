@@ -16,3 +16,281 @@ Nevím co tím myslíš? Tento příkaz neznám.
 dsdsadadasdasd
 Nevím co tím myslíš? Tento příkaz neznám.
 
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+predat mluv koupit Zneskodni nápověda inventar jdi seber konec 
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+konec
+hra ukončena příkazem konec
+
+seber predmet
+Vložil jsi: predmet do batohu.
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+inventar
+Obsah batohu: 
+nic nevlastníš
+V peněžence máš: 55 Kč
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi menza
+Jsi v mistnosti/prostoru oblíbené místo všech studentů a zeměstnanců.
+východy: průchod
+předměty k sebrání: Polévka, Voda
+postavy: Kuchařka
+
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
+koupit Voda
+Koupil jsi Voda.
+
+mluv Vrátný
+Vrátný: Dobrý den, co by jste potřeboval
+potřeoval bych kleště na zneškodnění bomby, nemáte náhodou nějaký?
+Ano, nějáký tu mám, ale nebude to zadarmo
+Co by jste tedy za ně chtěl
+Dojdi mi do kumbálo pro jedno pivko
+Dobrá, za chvilku tu jsem
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi kumbál
+Jsi v mistnosti/prostoru místmost kam se chodí poflakovat školník.
+východy: průchod
+předměty k sebrání: Pivo, Potraviny
+postavy: zde nejsou žádné postavy
+
+seber Pivo
+Vložil jsi: Pivo do batohu.
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+jdi vstup
+Jsi v mistnosti/prostoru Místo před vstupem do budovy.
+východy: chodba
+předměty k sebrání: zde není nic k sebrání
+postavy: Vrátný, Policista
+
+predat Pivo Vrátný
+Vrátný: Díky, snad ti to pomůže.
+
+inventar
+Obsah batohu: 
+nic nevlastníš
+V peněžence máš: 55 Kč
+
+vadny prikaz
+Nevím co tím myslíš? Tento příkaz neznám.
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi kumbál
+Jsi v mistnosti/prostoru místmost kam se chodí poflakovat školník.
+východy: průchod
+předměty k sebrání: Pivo, Potraviny
+postavy: zde nejsou žádné postavy
+
+seber Pivo
+Vložil jsi: Pivo do batohu.
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+jdi vstup
+Jsi v mistnosti/prostoru Místo před vstupem do budovy.
+východy: chodba
+předměty k sebrání: zde není nic k sebrání
+postavy: Vrátný, Policista
+
+mluv Vrátný
+Vrátný: Dobrý den, co by jste potřeboval
+potřeoval bych kleště na zneškodnění bomby, nemáte náhodou nějaký?
+Ano, nějáký tu mám, ale nebude to zadarmo
+Co by jste tedy za ně chtěl
+Dojdi mi do kumbálo pro jedno pivko
+Dobrá, za chvilku tu jsem
+
+predat Pivo Vrátný
+Vrátný: Díky, snad ti to pomůže.
+
+inventar
+Obsah batohu: 
+nic nevlastníš
+V peněžence máš: 55 Kč
+
+mluv Vrátný
+Vrátný: Dobrý den, co by jste potřeboval
+potřeoval bych kleště na zneškodnění bomby, nemáte náhodou nějaký?
+Ano, nějáký tu mám, ale nebude to zadarmo
+Co by jste tedy za ně chtěl
+Dojdi mi do kumbálo pro jedno pivko
+Dobrá, za chvilku tu jsem
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: Mapa
+postavy: zde nejsou žádné postavy
+
+seber Mapa
+Vložil jsi: Mapa do batohu.
+
+ds
+Nevím co tím myslíš? Tento příkaz neznám.
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+mluv Skolnik
+Skolnik: Pomoc Pomoc Pomoc!!!!! je tu bomba
+
+jdi menza
+Jsi v mistnosti/prostoru oblíbené místo všech studentů a zeměstnanců.
+východy: průchod
+předměty k sebrání: Polévka, Voda
+postavy: Kuchařka
+
+koupit Polévka
+Koupil jsi Polévka.
+
+seber Voda
+To nechci
+
+Koupit Voda
+Nevím co tím myslíš? Tento příkaz neznám.
+
+koupit Voda
+Koupil jsi Voda.
+
+invetar
+Nevím co tím myslíš? Tento příkaz neznám.
+
+nápověda
+Tvým úkolem je nálezt a následně zneškodnit bombu.
+
+Můžeš zadat tyto příkazy:
+predat mluv koupit Zneskodni nápověda inventar jdi seber konec 
+
+inventar
+Obsah batohu: 
+Mapa, Polévka, Voda
+V peněžence máš: 0 Kč
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi kumbálo
+Tam se odsud jít nedá!
+
+jdi kubál)
+Tam se odsud jít nedá!
+
+jdi kumbál
+Jsi v mistnosti/prostoru místmost kam se chodí poflakovat školník.
+východy: průchod
+předměty k sebrání: Pivo, Potraviny
+postavy: zde nejsou žádné postavy
+
+seber Pivo
+Vložil jsi: Pivo do batohu.
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: zde není nic k sebrání
+postavy: zde nejsou žádné postavy
+
+jdi vstup
+Jsi v mistnosti/prostoru Místo před vstupem do budovy.
+východy: chodba
+předměty k sebrání: zde není nic k sebrání
+postavy: Vrátný, Policista
+
+predat Pivo Vrátný
+Vrátný: Díky, snad ti to pomůže.
+
+jdi chodba
+Jsi v mistnosti/prostoru Dlouhá chodba, kde se náchází spousta místností.
+východy: průchod vstup
+předměty k sebrání: zde není nic k sebrání
+postavy: zde nejsou žádné postavy
+
+jdi průchod
+Jsi v mistnosti/prostoru průchod mezi budovami.
+východy: kumbál menza chodba
+předměty k sebrání: Bomba
+postavy: Skolnik
+
