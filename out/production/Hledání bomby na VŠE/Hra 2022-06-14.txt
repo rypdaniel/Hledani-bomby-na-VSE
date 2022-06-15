@@ -192,3 +192,6 @@ Dobrá, za chvilku tu jsem
 predat Pivo Vrátný
 Vrátný: Díky, snad ti to pomůže.
 
+mluv Kuchařka
+Kuchařka: Dobry den, můžu vám nabídnou polévku za 50 Kč, nebo vodu za 5Kč
+
